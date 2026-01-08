@@ -108,8 +108,8 @@ Documentation improvements are always welcome:
 
 1. **Fork and clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/Telegram-stars-premium-shop.git
-cd Telegram-stars-premium-shop
+git clone https://github.com/BobOfTheHawk/Telegram-stars-shop.git
+cd Telegram-stars-shop/
 ```
 
 2. **Create a virtual environment**
