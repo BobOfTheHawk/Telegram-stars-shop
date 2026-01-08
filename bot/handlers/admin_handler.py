@@ -99,8 +99,14 @@ async def manage_admins(callback: CallbackQuery):
     text += "\nTo add admin: /addadmin (user_id)\n"
     text += "To remove admin: /removeadmin (user_id)"
     
-    await callback.message.edit_text(text, reply_markup=get_admin_menu_keyboard())
-    await callback.answer()
+    with contextlib.suppress(TelegramBadRequest):
+            await callback.message.edit_text(
+                text, 
+                reply_markup=get_admin_menu_keyboard()
+            )
+    
+    # await callback.message.edit_text(text, reply_markup=get_admin_menu_keyboard())
+    # await callback.answer()
 
 
 @admin_router.message(Command("addadmin"), IsAdmin())
