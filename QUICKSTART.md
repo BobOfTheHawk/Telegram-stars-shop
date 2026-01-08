@@ -8,7 +8,7 @@ The fastest way to get started using Docker:
 
 ```bash
 # 1. Clone the repository
-git clone [[https://github.com/BobOfTheHawk/Telegram-stars-premium-shop.git](https://github.com/BobOfTheHawk/Telegram-stars-premium-shop.git)](https://github.com/BobOfTheHawk/Telegram-stars-shop.git)
+git clone https://github.com/BobOfTheHawk/Telegram-stars-premium-shop.git
 cd Telegram-stars-shop/
 
 # 2. Configure environment
