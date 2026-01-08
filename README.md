@@ -159,7 +159,7 @@ This is a professional Telegram shop bot that allows you to sell Telegram Stars 
 
 1. **Clone the repository**
 ```bash
-git clone [[https://github.com/BobOfTheHawk/Telegram-stars-premium-shop.git](https://github.com/BobOfTheHawk/Telegram-stars-premium-shop.git)](https://github.com/BobOfTheHawk/Telegram-stars-shop.git)
+git clone https://github.com/BobOfTheHawk/Telegram-stars-premium-shop.git
 cd Telegram-stars-shop/
 ```
 
